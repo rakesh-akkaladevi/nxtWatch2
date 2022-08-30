@@ -39,7 +39,7 @@ class SideBar extends Component {
           activeTabItem('SAVED VIDEOS')
         }
 
-        const bgColor = isDarkTheme ? '#ffffff' : '#000000'
+        const bgColor = isDarkTheme ? '#ffffff' : '#0f0f0f'
 
         const textColor = isDarkTheme ? '#f9f9f9' : '#181818'
 

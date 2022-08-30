@@ -8,7 +8,7 @@ import Header from '../Header'
 
 import SideBar from '../SideBar'
 
-import   CartContext from '../../context/CartContext'
+import CartContext from '../../context/CartContext'
 
 import {
   SearchVideosContainer,
@@ -92,7 +92,7 @@ class GamingRoute extends Component {
 
         const {searchedVideos} = this.state
 
-        const bgColor = isDarkTheme ? '#231f20' : '#f9f9f9'
+        const bgColor = isDarkTheme ? '#0f0f0f' : '#f9f9f9'
 
         return (
           <SearchVideosContainer data-testid="gaming" bgColor={bgColor}>

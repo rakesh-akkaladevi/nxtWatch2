@@ -243,14 +243,10 @@ class VideoDetails extends Component {
       />
       <Heading>Oops! Something Went Wrong</Heading>
       <Desc className="jobs-failure-description">
-        We are having some trouble to complete your request.Please try again.
+        We are having some trouble to complete your request. Please try again.
       </Desc>
       <NavLink>
-        <Retry
-          className="button"
-          type="button"
-          onClick={this.getSuggestionVideos}
-        >
+        <Retry className="button" type="button" onClick={this.getVideoDetails}>
           Retry
         </Retry>
       </NavLink>
